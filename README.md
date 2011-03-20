@@ -36,7 +36,7 @@ Options
 `CF.ExceptionNotifier` accepts the following options. All options are, err,
 optional.
 
-*   `url`: URL to `POST` exceptions to. Default: `"/js_exceptions"`
+*   `url`: URL to POST exceptions to. Default: `"/js_exceptions"`
 *   `stacktraces`: If `true`, stacktraces are included. Default: `true`
 *   `duplicates`: If `false`, duplicate errors will not be sent. Default: 
     `false`
