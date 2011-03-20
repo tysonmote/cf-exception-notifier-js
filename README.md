@@ -24,7 +24,7 @@ yet, if you remove the MooTools dependency in some crafty way.
 Setup
 -----
 
-    new CF.StacktraceNotifier({ url: '/exceptions' });
+    new CF.ExceptionNotifier({ url: '/exceptions' });
 
 This should be done immediately after MooTools is loaded, before any other
 scripts are loaded. Any events that are attached before this line will not be
@@ -33,7 +33,7 @@ able to provide stacktraces.
 Options
 -------
 
-`CF.StacktraceNotifier` accepts the following options. All options are, err,
+`CF.ExceptionNotifier` accepts the following options. All options are, err,
 optional.
 
 *   `url`: URL to `POST` exceptions to. Default: `"/js_exceptions"`
