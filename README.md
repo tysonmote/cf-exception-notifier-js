@@ -75,6 +75,12 @@ Contributing
 
 Pull requests are your friend.
 
+Contributors
+------------
+
+* Brian Hahn
+* Tyson Tate
+
 License
 -------
 
